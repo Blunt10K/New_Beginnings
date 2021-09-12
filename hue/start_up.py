@@ -10,7 +10,7 @@ def connect():
 
 def main():   
     cntrla = connect()
-    scene = cntrla.get_scene('coding')
+    scene = cntrla.get_scene('starlight_coding')
 
     cntrla.control(scene)
 
